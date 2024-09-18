@@ -22,10 +22,14 @@ After installing everything, you just need to run the main.ipynb to get the fore
 
 #### To run, follow these 4 steps:
 Step 1: Load data into the code
+
 Step 2: EDA to understand its structure and distribution as well as to prepare and transform for modeling 
+
 Step 3: Visualize the data to get an overview before forecasting with matplotlib.pyplot
+
 Step 4: Build a forecasting model with Prophet 
 P/s: I chose Prophet model because Prophet is designed to handle seasonality and trends in time series data. It’s particularly effective for data with strong yearly or weekly seasonal patterns, which can be common in streaming and viewership data due to annual music trends and release cycles. Especially, it is relatively easy to implement and interpret and have fewer hyperparameters to tune compared to more complex models.
+
 Step 5: Evaluate the Model
 
 Once this model is deployed, it can be retrained with updated data every few months to ensure accuracy.
