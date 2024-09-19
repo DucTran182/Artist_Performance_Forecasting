@@ -17,7 +17,7 @@ To run the model locally, follow these steps:
 4. Download dataset
 
 ## Run the code
-After installing everything, you just need to run the main.ipynb to get the forecasting results of ISAAC's performance on Spotify and YouTube.< br / > 
+After installing everything, you just need to run the main.ipynb to get the forecasting results of ISAAC's performance on Spotify and YouTube. < br / > 
 P/s: I have already converted the data from spreadsheet to CVS format.
 
 #### To run, follow these 4 steps:
