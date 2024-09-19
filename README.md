@@ -23,37 +23,9 @@ P/s: I have already converted the data from spreadsheet to CVS format.
 
 To run, follow these 4 steps:
 #### Step 1: Load data into the code  
-
 #### Step 2: EDA to understand its structure and distribution as well as to prepare and transform for modeling     
-
 #### Step 3: Visualize the data to get an overview before forecasting with matplotlib.pyplot  
-
 #### Step 4: Build a forecasting model with Prophet  
-##### Model Selection:  
-We used Facebook Prophet, a robust time series forecasting model. Prophet is well-suited for capturing trends and seasonality in streaming data, making it ideal for predicting future performance.
-
-##### Data Preparation:  
-The dataset includes Spotify stream data from 2017 to September 2024, along with key metadata for each song.
-We processed the data by aggregating monthly streams to ensure the model could capture patterns across time.
-
-##### Model Training:  
-The Prophet model was trained on the historical stream data.
-The model identifies three key components:
-Trend: Long-term growth or decline in streams.
-Weekly Seasonality: Patterns across the days of the week.
-Yearly Seasonality: Seasonal patterns across the year (e.g., spikes during holidays or special events).
-
-##### Forecasting:  
-We forecasted streams for the next 5 years (2024-2029).
-The model predicts an upward trend in streams over time, with seasonal fluctuations captured in the weekly and yearly components.
-
-##### Confidence Intervals:  
-The shaded areas in the forecast represent 95% confidence intervals, giving us a range of potential outcomes based on historical variability.
-
-##### Key Insights:  
-The overall trend is positive, suggesting steady growth in Spotify streams over the forecast period.
-We observe significant fluctuations weekly (higher streams on Thursdays/Fridays) and yearly, which aligns with known streaming behavior patterns.
-
 #### Step 5: Evaluate the Model
 
 ## Conclusion
