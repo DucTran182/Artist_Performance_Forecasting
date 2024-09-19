@@ -27,10 +27,10 @@ The dataset includes Spotify stream data and YouTube views data from 2017 to Sep
 I processed the data by aggregating monthly streams to ensure the model could capture patterns across time.
 
 ##### Model Training:  
-The Prophet model was trained on the historical stream data.
-The model identifies three key components:
-Trend: Long-term growth or decline in streams.
-Weekly Seasonality: Patterns across the days of the week.
+The Prophet model was trained on the historical stream data.  
+The model identifies three key components:  
+Trend: Long-term growth or decline in streams.  
+Weekly Seasonality: Patterns across the days of the week.  
 Yearly Seasonality: Seasonal patterns across the year (e.g., spikes during holidays or special events).
 
 ##### Trend Analysis:  
