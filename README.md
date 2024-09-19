@@ -27,8 +27,7 @@ The dataset includes Spotify stream data and YouTube views data from 2017 to Sep
 I processed the data by aggregating monthly streams to ensure the model could capture patterns across time.
 
 ##### Model Training:  
-The Prophet model was trained on the historical stream data.  
-The model identifies three key components:  
+The Prophet model was trained on the historical stream data. The model identifies three key components:  
 Trend: Long-term growth or decline in streams.  
 Weekly Seasonality: Patterns across the days of the week.  
 Yearly Seasonality: Seasonal patterns across the year (e.g., spikes during holidays or special events).
@@ -58,5 +57,23 @@ To run, follow these 4 steps:
 #### Step 4: Build a forecasting model with Prophet  
 #### Step 5: Evaluate the Model
 
-## Conclusion
+## Conclusion  
+### Key Insights:
+##### The Long-term Trend:  
+The model predicts a gradual increase in Spotify streams over the next 5 years, indicating that ISAAC's popularity is expected to grow in this platform. This is a positive signal for long-term investment. On the other hand, his performance on YouTube significantly decreases in the next 5 years. It will be a risky investment on this platform.
 
+##### Seasonality Patterns:  
+The weekly and yearly seasonality highlight predictable fluctuations in user behavior. Spikes in streams on certain days and during specific months can be leveraged for marketing campaigns, new releases, or promotions. For example, higher Spotify streams on Sundays and Thursdays, whereas higher YouTube views on Sunday only, suggest targeted marketing or release strategies on those days to maximize engagement.
+
+##### Uncertainty and Variability:   
+While there is a positive and negative growth trends, the confidence intervals show potential volatility. It suggests being cautious with high-risk investments and using flexible strategies that can adapt to these fluctuations. Monitor the actual stream performance closely against forecasted values.
+
+### Business Decision Recommendations:
+##### Increased Investment:   
+Given the overall positive growth forecast, consider increasing marketing efforts and investments to capitalize on ISAAC’s expected rising popularity in Spotify.
+
+##### Strategic Releases:   
+Plan song releases, promotional campaigns, or collaborations with peak streaming days (Sundays and Thursday) and months to maximize reach and impact. Publishing on Sunday if the company wants to upload on YouTube.
+
+##### Risk Management:  
+While growth is expected, monitor market changes closely, especially around the times of variability shown in the forecast. Reassess the forecast periodically (e.g., every 6 months) to ensure the model is performing as expected. Consider diversification strategies to minimize risk during volatile periods.
