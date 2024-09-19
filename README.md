@@ -33,9 +33,16 @@ Trend: Long-term growth or decline in streams.
 Weekly Seasonality: Patterns across the days of the week.
 Yearly Seasonality: Seasonal patterns across the year (e.g., spikes during holidays or special events).
 
+##### Trend Analysis:  
+The model identified an upward trend in streams over time, indicating potential growth. This is visualized in the trend component, where the stream counts are predicted to increase steadily until 2029.
+
+##### Seasonal Patterns:  
+Weekly Seasonality: Significant spikes are observed on Sundays and Thursdays, showing user activity patterns by the day of the week.  
+Yearly Seasonality: We noticed periodic fluctuations in streams during specific months, such as peaks around February and drops in late December.
+
 ##### Forecasting:  
 I forecasted streams for the next 5 years (2024-2029).
-The model predicts an upward trend in streams over time, with seasonal fluctuations captured in the weekly and yearly components.
+The model predicts an upward trend in streams over time, with seasonal fluctuations captured in the weekly and yearly components. The blue line in the forecast chart represents the expected stream values, while the shaded region indicates confidence intervals. 
 
 ##### Confidence Intervals:  
 The shaded areas in the forecast represent 95% confidence intervals, giving me a range of potential outcomes based on historical variability.
