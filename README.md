@@ -24,4 +24,6 @@ P/s: I have already converted the data from spreadsheet to CVS format.
 Step 1: Load data into the code  
 Step 2: EDA to understand its structure and distribution as well as to prepare and transform for modeling     
 Step 3: Visualize the data to get an overview before forecasting with matplotlib.pyplot  
-Step 4: Build a forecasting model with Prophet 
+Step 4: Build a forecasting model with Prophet  
+P/s: I chose Prophet model because Prophet is designed to handle seasonality and trends in time series data. It’s particularly effective for data with strong yearly or weekly seasonal patterns, which can be common in streaming and viewership data due to annual music trends and release cycles. Especially, it is relatively easy to implement and interpret and have fewer hyperparameters to tune compared to more complex models.  
+Step 5: Evaluate the Model
