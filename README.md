@@ -22,6 +22,6 @@ P/s: I have already converted the data from spreadsheet to CVS format.
 
 #### To run, follow these 4 steps:
 Step 1: Load data into the code  
-Step 2: EDA to understand its structure and distribution as well as to prepare and transform for modeling   
-Step 3: Visualize the data to get an overview before forecasting with matplotlib.pyplot
+Step 2: EDA to understand its structure and distribution as well as to prepare and transform for modeling     
+Step 3: Visualize the data to get an overview before forecasting with matplotlib.pyplot  
 Step 4: Build a forecasting model with Prophet 
