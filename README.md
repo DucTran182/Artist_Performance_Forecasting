@@ -17,11 +17,11 @@ To run the model locally, follow these steps:
 4. Download dataset
 
 ## Run the code
-After installing everything, you just need to run the main.ipynb to get the forecasting results of ISAAC's performance on Spotify and YouTube. < br / > 
+After installing everything, you just need to run the main.ipynb to get the forecasting results of ISAAC's performance on Spotify and YouTube. 
 P/s: I have already converted the data from spreadsheet to CVS format.
 
 #### To run, follow these 4 steps:
-Step 1: Load data into the code< br / >
-Step 2: EDA to understand its structure and distribution as well as to prepare and transform for modeling< br / > 
-Step 3: Visualize the data to get an overview before forecasting with matplotlib.pyplot< br / >
+Step 1: Load data into the code  
+Step 2: EDA to understand its structure and distribution as well as to prepare and transform for modeling   
+Step 3: Visualize the data to get an overview before forecasting with matplotlib.pyplot
 Step 4: Build a forecasting model with Prophet 
